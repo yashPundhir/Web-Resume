@@ -1,35 +1,80 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Courses from "./components/Courses";
+import Education from "./components/Education";
+import Experience from "./components/Experience";
+import Header from "./components/Header";
+import Interests from "./components/Interests";
+// import Languages from "./components/Languages";
+// import Profile from "./components/Profile";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
 
 function App() {
-  const [count, setCount] = useState(0)
+	return (
+		<div className="px-3 py-2 flex flex-col">
+			<div className="mb-10">
+				<Header />
+			</div>
 
-  return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+			{/* <div className="mb-10">
+				<Profile />
+			</div> */}
+
+			{/* <div className="mb-10">
+				<Skills />
+			</div>
+
+			<div className="mb-10">
+				<Experience />
+			</div>
+
+			<div className="mb-10">
+				<Projects />
+			</div>
+
+			<div className="mb-10">
+				<Education />
+			</div>
+
+			<div>
+				<Courses />
+			</div> */}
+
+			{/* <div className="mb-10">
+				<Languages />
+			</div>
+
+			<div>
+				<Interests />
+			</div> */}
+			<div className="flex gap-7">
+				<div className="flex flex-col w-[430px]  ">
+					<div className="mb-10">
+						<Experience />
+					</div>
+					<div>
+						<Projects />
+					</div>
+				</div>
+				<div className="flex flex-col w-[328px] ">
+					<div className="mb-10">
+						<Education />
+					</div>
+					<div className="mb-10">
+						<Skills />
+					</div>
+					<div className="mb-10">
+						<Courses />
+					</div>
+					{/* <div className="mb-10">
+						<Languages />
+					</div> */}
+					<div>
+						<Interests />
+					</div>
+				</div>
+			</div>
+		</div>
+	);
 }
 
-export default App
+export default App;
