@@ -2,7 +2,7 @@ const Education = () => {
 	return (
 		<div className="flex flex-col gap-2.5">
 			<div className="w-full">
-				<h1 className="text-[40px] font-semibold ">EDUCATION</h1>
+				<h1 className="text-[31px] font-semibold ">EDUCATION</h1>
 				<div className="border-2 border-black -mt-1"></div>
 			</div>
 			<div className="flex flex-col gap-3">

@@ -2,8 +2,8 @@ const Experience = () => {
 	return (
 		<div className="flex flex-col gap-2.5">
 			<div className="w-full">
-				<h1 className="text-[40px] font-semibold ">EXPERIENCE</h1>
-				<div className="border-2 border-black  -mt-1"></div>
+				<h1 className="text-[31px] font-semibold ">EXPERIENCE</h1>
+				<div className="border-2 border-black mr-4 -mt-1"></div>
 			</div>
 			<div>
 				<h1 className="text-2xl ">Jr. Software Developer</h1>

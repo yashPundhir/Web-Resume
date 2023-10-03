@@ -2,10 +2,10 @@ const Projects = () => {
 	return (
 		<div className="flex flex-col gap-2.5">
 			<div className="w-full">
-				<h1 className="text-[40px] font-semibold ">PROJECTS</h1>
+				<h1 className="text-[31px] font-semibold ">PROJECTS</h1>
 				<div className="border-2 border-black mr-4 -mt-1"></div>
 			</div>
-			<div>
+			<div className="mr-3">
 				<h1 className="text-2xl font-medium">Clips-Cave</h1>
 				<h1 className="text-[15px] mt-1 mr-5">
 					A YouTube like Video Streaming Application where the user can Play the
@@ -64,7 +64,7 @@ const Projects = () => {
 				</div>
 			</div>
 			<div className="mt-2 border-2 border-dashed border-gray-300 mr-4"></div>
-			<div>
+			<div className="mr-3">
 				<h1 className="text-2xl font-medium">Ride-Spectrum</h1>
 				<h1 className="text-[15px] mt-1 mr-5">
 					A Car Showcase Platform where users can search for any car model and
@@ -121,7 +121,7 @@ const Projects = () => {
 					</div>
 				</div>
 			</div>
-			<div className="mt-2 border-2 border-dashed border-gray-300 mr-4"></div>
+			{/* <div className="mt-2 border-2 border-dashed border-gray-300 mr-4"></div>
 			<div>
 				<h1 className="text-2xl font-medium">Fit-Blitz</h1>
 				<h1 className="text-[15px] mt-1 mr-5">
@@ -179,7 +179,7 @@ const Projects = () => {
 						</span>
 					</div>
 				</div>
-			</div>
+			</div> */}
 		</div>
 	);
 };
