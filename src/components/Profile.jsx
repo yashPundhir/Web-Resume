@@ -2,23 +2,24 @@ const Profile = () => {
 	return (
 		<div className="flex flex-col gap-2.5">
 			<div className="w-full">
-				<h1 className="text-[40px] font-semibold ">PROFILE</h1>
-				<div className="border-2 border-black -mt-1"></div>
+				<h1 className="text-[24px] font-semibold ">PROFILE</h1>
+				<div className="border-2 border-black "></div>
 			</div>
-			<div className="mr-5 mt-2">
+			<div className="mr-10 mt-0">
 				<ul className="list-disc ml-[22px]">
-					<li>
-						I specialize in front-end web development, with over 1 year of
-						experience in crafting responsive and captivating user interfaces.
+					<li className="text-[15px]">
+						Highly skilled software developer with about 2 years of experience
+						in front-end development, specializing in React.js and other modern
+						technologies.
 					</li>
-					<li>
-						My JavaScript expertise enables me to create dynamic user
-						experiences, coupled with mastery in ReactJS for building complex
-						UIs.
+					<li className="text-[15px]">
+						Proven track record of developing and maintaining web applications,
+						collaborating with cross-functional teams, and creating high-quality
+						user experiences.
 					</li>
-					<li>
-						Currently, I'm learning backend development, using NodeJS,
-						ExpressJS, and MongoDB to build robust server-side applications.
+					<li className="text-[15px]">
+						Experienced in leading and executing significant projects in both
+						corporate and startup environments.
 					</li>
 				</ul>
 			</div>

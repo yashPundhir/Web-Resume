@@ -2,11 +2,11 @@ const Courses = () => {
 	return (
 		<div className="flex flex-col gap-2.5">
 			<div className="w-full">
-				<h1 className="text-[31px] font-semibold ">COURSES</h1>
-				<div className="border-2 border-black  -mt-1"></div>
+				<h1 className="text-[24px] font-semibold ">COURSES</h1>
+				<div className="border-2 border-black"></div>
 			</div>
 			<div>
-				<h1 className="text-xl font-semibold">
+				<h1 className="text-[16] font-semibold">
 					Full Stack JavaScript Web Developer Bootcamp - iNeuron
 				</h1>
 			</div>

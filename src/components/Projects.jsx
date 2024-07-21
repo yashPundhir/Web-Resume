@@ -1,22 +1,46 @@
+// import download from "../assets/downloadIcon.svg";
+
 const Projects = () => {
 	return (
 		<div className="flex flex-col gap-2.5">
 			<div className="w-full">
-				<h1 className="text-[31px] font-semibold ">PROJECTS</h1>
-				<div className="border-2 border-black mr-4 -mt-1"></div>
+				<h1 className="text-[24px] font-semibold ">PROJECTS</h1>
+				<div className="border-2 border-black "></div>
 			</div>
-			<div className="mr-3">
-				<h1 className="text-2xl font-medium">Clips-Cave</h1>
-				<h1 className="text-[15px] mt-1 mr-5">
+			<div className="mr-0">
+				<h1 className="text-[20px] font-medium">My Mudra Partner Portal</h1>
+				<h1 className="text-[14px] mt-0">
+					A portal used by the DSA to create & manage leads
+				</h1>
+				<div className="mt-0">
+					<span className="text-[15px] ">Tech Stack Used:</span>
+					<span> </span>
+					<span className="text-[14px] font-medium">FlutterFlow</span>
+				</div>
+			</div>
+			<div className="mt-0 -mb-1 border-2 border-dashed border-gray-300 mr-0"></div>
+			<div className="mr-0">
+				<h1 className="text-[20px] font-medium">Clips-Cave</h1>
+				{/* <h1 className="text-[15px] mt-1">
 					A YouTube like Video Streaming Application where the user can Play the
 					Video, Search for Videos, Filter Out Categories, Explore Channel
 					Detail page, etc.
-				</h1>
-				<ul className="list-disc ml-[22px] mt-2 mr-3 text-[15px]">
+				</h1> */}
+				{/* <ul className="list-disc ml-[22px] mt-2 mr-3 text-[15px]">
 					<li>Used React to create the UI of the App.</li>
 					<li>Used TailwindCSS to do the styling of the App.</li>
 					<li>Used RapidAPI to fetch the required data in JSON format.</li>
-				</ul>
+				</ul> */}
+				<h1 className="text-[14px] mt-0">
+					A YouTube like video streaming application
+				</h1>
+				<div className="mt-0">
+					<span className="text-[15px] ">Tech Stack Used:</span>
+					<span> </span>
+					<span className="text-[14px] font-medium">
+						React, RapidAPI, TailwindCSS
+					</span>
+				</div>
 				<div className="mt-1 flex gap-10">
 					<div className="flex gap-1 items-center justify-start">
 						<svg
@@ -32,7 +56,7 @@ const Projects = () => {
 						</svg>
 						<span className="text-[15px] font-semibold underline">
 							<a
-								href="https://clips-cave-sj.netlify.app/"
+								href="https://clips-cave.vercel.app/"
 								target="_blank"
 								rel="noreferrer"
 							>
@@ -63,8 +87,8 @@ const Projects = () => {
 					</div>
 				</div>
 			</div>
-			<div className="mt-2 border-2 border-dashed border-gray-300 mr-4"></div>
-			<div className="mr-3">
+			{/* <div className="mt-2 border-2 border-dashed border-gray-300 mr-4"></div> */}
+			{/* <div className="mr-3">
 				<h1 className="text-2xl font-medium">Ride-Spectrum</h1>
 				<h1 className="text-[15px] mt-1 mr-5">
 					A Car Showcase Platform where users can search for any car model and
@@ -120,7 +144,7 @@ const Projects = () => {
 						</span>
 					</div>
 				</div>
-			</div>
+			</div> */}
 			{/* <div className="mt-2 border-2 border-dashed border-gray-300 mr-4"></div>
 			<div>
 				<h1 className="text-2xl font-medium">Fit-Blitz</h1>
